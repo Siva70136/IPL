@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.match-card-item {
+  background-color: #1e293b;
+  list-style: none;
+  margin: 5px;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+  width: 300px;
+  text-align: center;
+}
+.team {
+  font-size: 20px;
+}
+.team-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.loss {
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.win {
+  color: green;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .team {
+    font-size: 17px;
+  }
+}

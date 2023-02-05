@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 200px;
+  color: white;
+  border: 1px solid lightgray;
+  margin: 10px;
+  background-color: #ffffff33;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.team-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+}

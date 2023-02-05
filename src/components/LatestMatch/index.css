@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.latest-match-card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  width: 940px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.line {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 32px;
+  }
+  .first {
+    display: flex;
+
+    align-items: center;
+  }
+  .latest-match-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    width: 400px;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .line {
+    display: flex;
+    font-size: 3px;
+    color: lightgray;
+    width: 100%;
+  }
+}
